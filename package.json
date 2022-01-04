@@ -1,0 +1,28 @@
+{
+  "name": "GelfInputEx",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "xykong/graylog-plugin-gelf-input-ex"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint src",
+    "lint:path": "eslint",
+    "test": "jest"
+  },
+  "keywords": [
+    "graylog"
+  ],
+  "author": "xy.kong <xy.kong@gmail.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "graylog"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "graylog-web-plugin": "file:../graylog2-server/graylog2-web-interface/packages/graylog-web-plugin"
+  }
+}
